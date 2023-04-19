@@ -1,0 +1,138 @@
+.left{
+  text-align: right;
+} 
+  header {
+    background-color: #17a2b8;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+align-items: center;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+ul li a{
+  color: blue; 
+  letter-spacing: 0,1rem;
+
+}
+ul li a:hover{
+  color: #17a2b8;
+  text-decoration: underline;
+}
+menu li {
+  float: left;
+  padding: 35px;
+
+}
+menu li a{
+  text-decoration: none;
+}
+
+.header img {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+      
+  .image-container {
+    text-align: center;
+    justify-content: center;
+  }
+  .container {
+    position:relative;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .texte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(17, 16, 16);
+    }
+    button{
+    background-color: blue;
+    color: white;
+    border: 2px;
+    border-radius: 8px;
+    font-size: 10px;
+    padding-left: 60px;
+
+    }
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+.name-field {
+display: flex;
+width: 80%;
+justify-content: space-between;
+}
+.name-field div {
+    width: 49%;
+}
+    label {
+        margin: button;
+    }
+    input {
+        margin-bottom: 5px;
+        padding: 5px;
+        outline: 0;
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+    input:focus {
+        border: 1px #17a2b8;
+    }
+    #Recherche{
+        background-color: #17a2b8; 
+        border: none; 
+        color: white; 
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        margin: 4px 2px; 
+        cursor: pointer; 
+      }
+      p{
+        text-align: center;
+        margin: 5px 0;
+        font-size: 14px;
+      }
+      p a{
+        text-decoration: 0;
+        color:#17a2b8;
+    }
+        p a:hevor{
+            text-decoration: underline;
+        }
+        .img{
+            text-align: center;
+            justify-content: center;
+        }
+.hero{
+  text-align: right;
+}        
+    
+  
+  
+  
+  
